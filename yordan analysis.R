@@ -5,11 +5,11 @@ library(scales)
 
 # Import data and clean 
 yordan <- read.csv(file.choose()) 
-arraez <- read.csv(file.choose()) 
+stanton <- read.csv(file.choose()) 
 carroll <- read.csv(file.choose())
 
-arraez <- 
-  arraez %>% 
+stanton <- 
+  stanton %>% 
   filter(!is.na(bat_speed), !is.na(swing_length)) 
 
 carroll <- 
